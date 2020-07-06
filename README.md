@@ -79,7 +79,7 @@
 
         # go tools
         go get -u -v github.com/kardianos/govendor
-        go get -u -v github.com/penggy/gobuild
+        go get -u -v github.com/MeloQi/gobuild
 
         # npm tools
         npm i -g apidoc
