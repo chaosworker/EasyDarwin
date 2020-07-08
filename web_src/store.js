@@ -5,7 +5,7 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
     state: {
-        logoText: "EasyDarwin",
+        logoText: "ED视频流平台",
         logoMiniText: "ED",
         serverInfo: {},
         userInfo: null,

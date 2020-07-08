@@ -1,8 +1,8 @@
 <template>
   <header class="main-header">
     <router-link class="logo" style="position: relative;" to="/">
-        <div class="logo-mini">{{logoMiniText}}</div>
-        <div class="logo-lg">{{logoText}}</div>
+        <div class="logo-mini" style="background:#4169E1">{{logoMiniText}}</div>
+        <div class="logo-lg" style="background:#4169E1">{{logoText}}</div>
         
         <span class='logo-lg label label-warning' style='position: absolute;top:8px;right: 20px;font-size: 8px;' v-if="versionText">{{versionText}}</span>
     </router-link>    

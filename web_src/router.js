@@ -9,6 +9,7 @@ const PusherList = () => import(/* webpackChunkName: 'pushers' */ 'components/Pu
 const PlayerList = () => import(/* webpackChunkName: 'players' */ 'components/PlayerList.vue')
 const User = () => import(/* webpackChunkName: 'user' */ 'components/User.vue')
 const About = () => import(/* webpackChunkName: 'about' */ 'components/About.vue')
+const Login = () => import(/* webpackChunkName: 'login' */ 'components/Login.vue')
 
 Vue.use(Router);
 
@@ -16,7 +17,7 @@ const router = new Router({
     routes: [
         {
             path: '/',
-            component: AdminLTE,
+            component: Login,
             // meta: { needLogin: true },
             children: [
                 {
